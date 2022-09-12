@@ -9,11 +9,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+/*
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.Id;*/
 
 @SpringBootApplication
 public class SinglewebappApplication {
@@ -32,7 +32,7 @@ class HelloWrold{
 		return "endpoint to say hello";
 	}
 }
-
+/*
 @Entity
 @Data
 @NoArgsConstructor
@@ -41,4 +41,4 @@ class User{
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private String name;
-}
+}*/
